@@ -1,0 +1,14 @@
+# fips-assimp
+---
+
+imports:
+     fips-googletest:
+         git: https://github.com/mgerhardy/fips-googletest.git
+     fips-zlib:
+         git: https://github.com/floooh/fips-zlib.git
+
+exports:
+    header-dirs:
+        - assimp/include
+    modules:
+        assimp: .
